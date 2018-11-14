@@ -1,13 +1,232 @@
 <!doctype html>
-<html>
-  <head>
-    <title>Jack David</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <h1>This is Jack David's personal website</h1>
-    <p>Blah blah blah<p>
-    <a href="https://www.google.com">This is a link to googledotcom</a>
-    <img src="./IMG_0534.JPG" alt="Image not available :(" width="200" height="200">
-  </body>
-</html>
+<html><head>
+<title>CS 537 - Challenge Problem #8</title>
+</head>
+
+<body bgcolor="#ffffff" text="#000000">
+
+<table border="0" width="100%" align="center">
+<tbody><tr>
+<td width="20%"></td><td width="60%" align="center">
+    <b>UNIVERSITY OF WISCONSIN-MADISON
+    <br>
+    Computer Sciences Department</b>
+</td>
+<td width="20%"></td>
+</tr>
+
+<tr></tr>
+
+<tr>
+<td>
+    <b>CS 537
+    <br>
+    Fall 2018</b>
+</td>
+<td>
+    </td><td align="right"><b>Barton Miller</b>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td align="center">
+    <b>Challenge Problem #8</b>
+    <br>
+    Thursday, November 8
+</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<!--
+<table border=1 width=100% align=center>
+<tr><td width=50% valign=center>Name
+    <br>&nbsp;
+
+    <td width=25% valign="center">Net ID
+    <br>&nbsp;
+    </td>
+
+    <td width=25% valign="center">Section #
+    <br>&nbsp;
+    </td>
+</tr>
+
+<tr><td colspan=3 valign="center">Signature
+    <br>&nbsp;
+    </td>
+</tr>
+
+</table>
+-->
+
+<h2>Paging and TLB's</h2>
+
+Consider a virtual memory architecture with the following parameters:
+
+<ul>
+<li>
+64 bit virtual addresses
+</li>
+<li>
+256 kilobyte (KB) page size
+</li>
+<li>
+256 terabytes (TB) of real memory
+</li>
+<li>
+first and second level page tables are stored in real memory (RAM)
+</li>
+<li>
+all page tables can start only on a <b>page</b> boundary
+</li>
+<li>
+second level page tables will have a maximum size of 64M entries.
+</li>
+<li>
+there are no permission or other extra bits.
+</li>
+</ul>
+
+
+<center>
+<br>
+<img align="CENTER" src="2levelpage.gif" alt="Two level page table">
+<br>
+</center>
+
+
+<hr>
+
+<p>
+Design the TLB for the memory mapping architecture that is described above.
+This cache should be
+<b>4-way set associative</b>
+and have
+<b>1024 rows</b>.
+
+</p><p>
+On the blank page draw a diagram of the TLB,
+showing the size of each field in the TLB.
+Indicate how bits of the VA are used for input to the TLB, and describe the
+outputs from the TLB.
+
+<!--
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+-->
+
+</p><hr>
+
+<!--
+<p>
+<font color="blue"><b>Here is the diagram for the TLB:</b></font>
+
+<CENTER>
+<BR>
+<IMG ALIGN=CENTER SRC="P8-tlb.jpg" ALT="Diagram of a TLB">
+<BR>
+</CENTER>
+-->
+
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+
+
+<h4>
+Last modified:
+Thu Nov  8 11:00:53 CST 2018
+by
+<a href="http://www.cs.wisc.edu/~bart">bart</a>
+</h4>
+<!--
+-->
+
+</body></html>
